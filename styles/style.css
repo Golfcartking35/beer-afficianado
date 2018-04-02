@@ -1,0 +1,113 @@
+/* Header */
+.header {
+  border-bottom: 1em double #0080ff;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 4em;
+  font-family: 'Chicle', cursive;
+  font-style: italic;
+  color: #0080ff;
+  padding-bottom: .25em;
+}
+
+.header-info {
+  font-size: 1.4em;
+  font-family: 'Cabin', sans-serif; 
+}
+
+/* Modules */
+.module {
+  text-align:center;
+}
+
+.module-header {
+  font-family: 'Chicle', cursive;
+  font-size: 2.5em;
+  color: white;
+  width: 60%;
+  margin-top: 1em;
+  border-radius: 20px;
+}
+
+.module-header:hover {
+  color: black;
+}
+
+.module-info {
+  padding-left: 10%;
+  padding-right:10%;
+  font-size: 1.25em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.reveal {
+  font-family: 'Chicle', cursive;
+  font-size: 1.15em;
+}
+
+#amber-button {
+  background-color: #ff6600;  
+}
+
+#blonde-button {
+  background-color:  #ffcc00;  
+}
+
+#brown-button {
+  background-color:  #b33c00;
+}
+
+#cream-button {
+  background-color:  #ffd633;  
+}
+
+#dark-button {
+  background-color:  #663300;  
+}
+
+#fruit-button {
+  background-color:  #cc3300;  
+}
+
+#golden-button {
+  background-color:  #ffcc00;  
+}
+
+#honey-button {
+  background-color:  #e6b800;  
+}
+
+#ipa-button {
+  background-color:  #cc6600;  
+}
+
+#light-button {
+  background-color:  #ffdb4d;  
+}
+
+#lime-button {
+  background-color:  #99cc00;  
+}
+
+#pale-button {
+  background-color:  #ffcc66;  
+}
+
+#pilsner-button {
+  background-color:  #ffd11a;  
+}
+
+#red-button {
+  background-color:  #ff5c33;  
+}
+
+#strong-button {
+  background-color:  #663300;  
+}
+
+#wheat-button {
+  background-color:  #ffd11a;  
+}
