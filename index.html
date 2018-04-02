@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chicle|Cabin|Work+Sans" rel="stylesheet">  
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+  <title>Beer Afficianado</title>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1 class="header-title">Beer Styles</h1>
+    <p class="header-info">Below is a list of the styles of beer. If one sounds good to you, 
+      tap on the name of the style to reveal nationally available and popular styles of that 
+      beer.</p>
+  </div>
+
+  <!-- Sections -->
+  <div class="module" id="amber">
+    <button onClick="amberClick()" id="amber-button" class="module-header">Amber</button>
+    <p class="module-info">Ambers are very versaitle beers. In your everday travels 
+      you will likely find Ambers as ales, although they can also be lagers. These beers tend to be
+      full-bodied with malty aromas. Hints of caramel are traditionally used for color and taste.</p>
+    <p class="reveal" id="amber-reveal"></p>
+  </div>
+
+  <div class="module" id="blonde">
+    <button onClick="blondeClick()" id="blonde-button" class="module-header">Blonde</button>
+    <p class="module-info">Pale in color, with crisp and clear taste. They tend to be dry, with
+      lower bitterness and aroma from hops, as well as some sweetness from malts.
+    </p>
+    <p class="reveal" id="blonde-reveal"></p>
+  </div>
+
+  <div class="module" id="brown">
+    <button onClick="brownClick()" id="brown-button" class="module-header">Brown</button>
+    <p class="module-info">Usually a dark amber or brown in color, they often have evidence of
+      chocolate and caramel flavors. They will either have a hint of citrus, or a nutty and malty flavor, depending on the brewer. They are traditionally strong beers.
+    </p>
+    <p class="reveal" id="brown-reveal"></p>
+  </div>
+
+  <div class="module" id="cream">
+    <button onClick="creamClick()" id="cream-button" class="module-header">Cream</button>
+    <p class="module-info">Traditionally a mild, sweet, and golden style of ale. In modern brews, 
+        this will be a describing word, meaning a lighter and more mild version of the beer it prefixes.
+    </p>
+    <p class="reveal" id="cream-reveal"></p>
+  </div>
+
+  <div class="module" id="dark">
+    <button onClick="darkClick()" id="dark-button" class="module-header">Dark</button>
+    <p class="module-info">A British style of beer, featuring a unique blend of hops, yeast, 
+      and malts. It tends to be a brown or light black color, with a robust character.
+    </p>
+    <p class="reveal" id="dark-reveal"></p>
+  </div>
+
+  <div class="module" id="fruit">
+    <button onClick="fruitClick()" id="fruit-button" class="module-header">Fruit</button>
+    <p class="module-info">Many fruit beers are ales that diverge from typical ale characteristics. 
+      The malt flavor has to be relatively weak to allow the fruit flavor to come through, meaning that they tend not to be bitter.
+    </p>
+    <p class="reveal" id="fruit-reveal"></p>
+  </div>
+
+  <div class="module" id="golden">
+    <button onClick="goldenClick()" id="golden-button" class="module-header">Golden</button>
+    <p class="module-info">Developed in the UK, but making a state-side resurgence, they tend to be 
+      light in color with a hint of citrus and vanilla. They can contain a spicier flavor depending on the brewery.
+    </p>
+    <p class="reveal" id="golden-reveal"></p>
+  </div>
+
+  <div class="module" id="ipa">
+    <button onClick="ipaClick()" id="ipa-button" class="module-header">IPA</button>
+    <p class="module-info">A very hoppy (bitter) version of a pale ale. It was originally brewed in 
+      England with more hops to survive the journey to British troops stationed in India. It now exists in many different forms in avant-garde styles of brewing.
+    </p>
+    <p class="reveal" id="ipa-reveal"></p>
+  </div>
+
+  <div class="module" id="light">
+    <button onClick="lightClick()" id="light-button" class="module-header">Light</button>
+    <p class="module-info">Light beers are mild in flavor and alcohol content. That being said, 
+      they have far fewer calories than most beers.
+    </p>
+    <p class="reveal" id="light-reveal"></p>
+  </div>
+
+  <div class="module" id="lime">
+    <button onClick="limeClick()" id="lime-button" class="module-header">Lime</button>
+    <p class="module-info">These beers will tend to be light in flavor with a lower alcohol 
+      content. They have a refreshing lime taste.
+    </p>
+    <p class="reveal" id="lime-reveal"></p>
+  </div>
+
+  <div class="module" id="pale">
+    <button onClick="paleClick()" id="pale-button" class="module-header">Pale</button>
+    <p class="module-info">Copper-coloring and fruity complexions define these beers. They are 
+      robust beers that pair well with spiced foods.
+    </p>
+    <p class="reveal" id="pale-reveal"></p>
+  </div>
+
+  <div class="module" id="pilsner">
+    <button onClick="pilsnerClick()" id="pilsner-button" class="module-header">Pilsner</button>
+    <p class="module-info">Made with a mix of neutral and hard waters, they will be golden in 
+      color with a dry and crisp flavor. Their slightly more bitter complexion helps them to stand out from lagers.
+    </p>
+    <p class="reveal" id="pilsner-reveal"></p>
+  </div>
+
+  <div class="module" id="red">
+    <button onClick="redClick()" id="red-button" class="module-header">Red</button>
+    <p class="module-info">Despite their name, they will range from light brown to red in color. 
+      Reds will have a medium-heavy flavor that contains an interesting mix of caramel and hoppy characteristics.
+    </p>
+    <p class="reveal" id="red-reveal"></p>
+  </div>
+
+  <div class="module" id="strong">
+    <button onClick="strongClick()" id="strong-button" class="module-header">Strong</button>
+    <p class="module-info">A very broad grouping that traditionally defines any beer with an 
+      alcohol content higher than 7%. Whenever you see this prefix defining a type or style, expect it to be a more extreme version of what you're drinking.  
+    </p>
+    <p class="reveal" id="strong-reveal"></p>
+  </div>
+
+  <div class="module" id="wheat">
+    <button onClick="wheatClick()" id="wheat-button" class="module-header">Wheat</button>
+    <p class="module-info">These beers will be light and easy to drink with little aftertaste. 
+      Wheat provides soft characteristics to beer, and will often have a hazy or cloudy look.
+    </p>
+    <p class="reveal" id="wheat-reveal"></p>
+  </div>
+
+  <script src="scripts/RevealBrands.js"></script>
+</body>
+</html>
