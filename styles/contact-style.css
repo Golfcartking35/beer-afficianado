@@ -1,0 +1,38 @@
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 5em;
+  font-family: 'Chicle', cursive;
+  font-style: italic;
+  color: #0080ff;
+}
+
+.body {
+  padding-left: 7%;
+  padding-right: 7%;
+  text-align: center;
+}
+
+.body-info {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5em;
+}
+
+.body-contact {
+  font-family: 'Chicle', cursive;
+  font-size: 2em;
+  color: #ff6600;
+}
+
+.return {
+  text-decoration-color: #0080ff;
+}
+
+.body-return {
+  color: #0080ff;
+  font-size: 1.25em;
+  font-family: 'Cabin', sans-serif;
+}

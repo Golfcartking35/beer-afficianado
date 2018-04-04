@@ -45,7 +45,7 @@
 
 .reveal {
   font-family: 'Chicle', cursive;
-  font-size: 1.25em;
+  font-size: 1.6em;
 }
 
 #amber-button {
@@ -110,4 +110,28 @@
 
 #wheat-button {
   background-color:  #ffd11a;  
+}
+
+#wheat {
+  border-bottom: 1em double #0080ff;
+  border-radius: 7px;
+}
+
+/* Footer */
+
+.footer {
+  color: #0080ff;
+  text-align: center;
+}
+
+.footer-info {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.75em;
+}
+
+#footer-link {
+  font-family: 'Chicle', cursive;
+  color: #ff6600;
+  text-decoration: none;
+  font-size: 1em;
 }
